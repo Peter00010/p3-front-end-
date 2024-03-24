@@ -25,4 +25,4 @@ const App = () => {
 
 export default App;
 
-//This is where we put all our components and routing is done.
+
