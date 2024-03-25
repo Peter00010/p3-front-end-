@@ -9,7 +9,7 @@ import Signup from "./Components/Signup";
 
 const App = () => {
   return (
-    <BrowserRouter basename={import.meta.env.DEV ? '/' : '/p3-front-end/'}>
+    <BrowserRouter basename={import.meta.env.DEV ? '/' : '/p3-front-end-/'}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/questions" element={<Questions />} />
